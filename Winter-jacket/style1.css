@@ -1,0 +1,207 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory;
+}
+html,body
+{
+height: 100%;
+width: 100%;
+}
+#main{
+width: 100%;
+height: 100%;
+background-color: rgba(32, 32, 29, 0);
+
+}
+nav{
+width: 100%;
+/* position: fixed; */
+background-color: rgba(123, 123, 230, 0.411);
+display: flex;
+height: 80px;
+align-items: center;
+justify-content: flex-end;
+gap: 15px;
+padding: 15px;
+font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+   
+}
+nav i{
+    /* width: 25px; */
+    font-size: 30px;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    font-weight: 450;
+}
+#center{
+    height: 342px;
+    width: 100%;
+/* background-color: rgba(49, 175, 60, 0.678); */
+   padding: 5px 25px;
+   
+}
+#center h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 58px;
+}
+#center-in{
+    margin-top: 25px;
+    width: 100%;
+    /* padding: 90px; */
+    height: 5%;
+    /* background-color: rgb(84, 122, 81); */
+    display: flex;
+    justify-content: space-between;
+}
+    
+#center-in p{
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+}
+#right{
+    width: 20%;
+   
+}
+ .elm{
+    /* background-color: yellow; */
+    padding: 10px 0px;
+    margin: 2px;
+     line-height: 2px;
+     border-top: 2px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+  .elm i{
+font-size: 20px;
+font-weight: 500;
+opacity: 0;
+
+  }
+    .elm a{
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .elm:hover i{
+opacity: 1;
+}
+.elm:hover a{
+    /* background-color: antiquewhite; */
+    text-decoration: underline
+}
+#bottom{
+background-color: rgba(255, 0, 0, 0.466);
+    height: 30%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1482498081626-c0d36d9c5ab9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-position: 10% 550px;
+
+}
+
+@media (max-width:600px) {
+    nav{
+        width: 100%;
+       
+        background-color: rgba(123, 123, 230, 0.411);
+       
+        height: 60px;
+       
+        gap: 10px;
+        padding: 10px;
+        font-size: 15px;
+        }
+      
+        nav i{
+            /* width: 25px; */
+            font-size: 20px;
+            padding: 4px;
+            background-color: black;
+            color: aliceblue;
+            border-radius: 50%;
+            font-weight: 350;
+        }
+
+        #center{
+            height: 342px;
+            width: 100%;
+        /* background-color: rgba(49, 175, 60, 0.678); */
+           padding: 3px 35px;
+           
+        }
+        #center h1{
+            
+            font-size: 10vw;
+            font-weight: 300;
+            line-height: 11.1vw;
+        }
+        #center-in{
+            margin-top: 15px;
+            width: 100%;
+           height: 5%;
+            /* background-color: rgb(84, 122, 81); */
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+            
+        #center-in p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 4vw;
+        }
+        #right{
+            margin-top: 7px;
+            width: 100%;
+           /* background-color: brown; */
+        }
+         .elm{
+       
+            padding: 9px 0px;
+            margin: 2px;
+             line-height: 2px;
+             border-top: 1.5px solid black;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+            }
+          .elm i{
+        font-size: 15px;
+        font-weight: 300;
+        opacity: 0;
+        
+          }
+            .elm a{
+                color: black;
+                font-weight: 300;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            
+        .elm:hover a{
+            /* background-color: antiquewhite; */
+            text-decoration: underline
+        }
+        #bottom{
+            background-color: rgba(255, 0, 0, 0.466);
+                height: 50%;
+                width: 100%;
+                background-image: url(https://images.unsplash.com/photo-1482498081626-c0d36d9c5ab9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: 50% 600px;
+            
+            }
+}
